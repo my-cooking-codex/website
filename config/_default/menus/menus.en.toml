@@ -1,17 +1,30 @@
 [[main]]
+  name = "Features"
+  url = "/features/"
+  weight = 1
+
+[[main]]
+  name = "Guides"
+  url = "#"
+  weight = 2
+  identifier = "guides"
+
+[[main]]
   name = "User Guide"
-  url = "/user-guide/"
-  weight = 10
+  url = "/docs/user-guide/intro/"
+  parent = "guides"
+  weight = 1
 
 [[main]]
   name = "Self-Hosting"
-  url = "/self-hosting/"
-  weight = 20
+  url = "/docs/self-hosting/intro/"
+  parent = "guides"
+  weight = 2
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 30
+  weight = 4
 
 [[social]]
   name = "GitHub"

@@ -1,6 +1,6 @@
 ---
 title : "User Guide"
-description: "User Guide"
+description: ""
 lead: ""
 draft: false
 images: []
